@@ -31,7 +31,7 @@ function load(key) {
   }
 }
 
-let loadingTime = localStorage.load(STORAGE_KEY);
+let loadingTime = load(STORAGE_KEY);
 
 if (loadingTime) {
   player.setCurrentTime(loadingTime);
